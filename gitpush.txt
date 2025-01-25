@@ -1,0 +1,172 @@
+Microsoft Windows [Version 10.0.22631.4602]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\j1\tem>git init
+Initialized empty Git repository in C:/j1/tem/.git/
+
+C:\j1\tem>git remote add origin https://github.com/adil22032004/ADI.git
+
+C:\j1\tem>git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ABOUT THIS TEMPLATE.txt
+        about.html
+        contact.html
+        css/
+        faq.html
+        fonts/
+        images/
+        index.html
+        js/
+        product-detail.html
+        products.html
+        sign-in.html
+        sign-up.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\j1\tem>git branch -m main
+
+C:\j1\tem>git status
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ABOUT THIS TEMPLATE.txt
+        about.html
+        contact.html
+        css/
+        faq.html
+        fonts/
+        images/
+        index.html
+        js/
+        product-detail.html
+        products.html
+        sign-in.html
+        sign-up.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\j1\tem>git add .
+warning: in the working copy of 'css/bootstrap-icons.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/bootstrap.min.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'css/slick.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/Headroom.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/bootstrap.bundle.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/custom.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/jQuery.headroom.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/jquery.min.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'js/slick.min.js', LF will be replaced by CRLF the next time Git touches it
+
+C:\j1\tem>git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   ABOUT THIS TEMPLATE.txt
+        new file:   about.html
+        new file:   contact.html
+        new file:   css/bootstrap-icons.css
+        new file:   css/bootstrap.min.css
+        new file:   css/slick.css
+        new file:   css/tooplate-little-fashion.css
+        new file:   faq.html
+        new file:   fonts/bootstrap-icons.woff
+        new file:   fonts/bootstrap-icons.woff2
+        new file:   images/cody-lannom-G95AReIh_Ko-unsplash.jpeg
+        new file:   images/header/businesspeople-meeting-office-working.jpg
+        new file:   images/header/positive-european-woman-has-break-after-work.jpg
+        new file:   images/people/beautiful-woman-face-portrait-brown-background.jpeg
+        new file:   images/people/portrait-british-woman.jpeg
+        new file:   images/people/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg
+        new file:   images/people/woman-wearing-mask-face-closeup-covid-19-green-background.jpeg
+        new file:   images/pim-chu-z6NZ76_UTDI-unsplash.jpeg
+        new file:   images/product/anis-m-WnVrO-DvxcE-unsplash.jpeg
+        new file:   images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg
+        new file:   images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg
+        new file:   images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg
+        new file:   images/product/quokkabottles-kFc1_G1GvKA-unsplash.jpeg
+        new file:   images/product/team-fredi-8HRKoay8VJE-unsplash.jpeg
+        new file:   images/retail-shop-owner-mask-social-distancing-shopping.jpg
+        new file:   images/servicescape-incorporated-_48JSlVLX6g-unsplash.jpeg
+        new file:   images/slideshow/medium-shot-business-women-high-five.jpeg
+        new file:   images/slideshow/team-meeting-renewable-energy-project.jpeg
+        new file:   images/slideshow/two-business-partners-working-together-office-computer.jpeg
+        new file:   index.html
+        new file:   js/Headroom.js
+        new file:   js/bootstrap.bundle.min.js
+        new file:   js/custom.js
+        new file:   js/jQuery.headroom.js
+        new file:   js/jquery.min.js
+        new file:   js/slick.min.js
+        new file:   product-detail.html
+        new file:   products.html
+        new file:   sign-in.html
+        new file:   sign-up.html
+
+
+C:\j1\tem>git commit -m "MY "
+[main (root-commit) b3b5156] MY
+ 40 files changed, 5159 insertions(+)
+ create mode 100644 ABOUT THIS TEMPLATE.txt
+ create mode 100644 about.html
+ create mode 100644 contact.html
+ create mode 100644 css/bootstrap-icons.css
+ create mode 100644 css/bootstrap.min.css
+ create mode 100644 css/slick.css
+ create mode 100644 css/tooplate-little-fashion.css
+ create mode 100644 faq.html
+ create mode 100644 fonts/bootstrap-icons.woff
+ create mode 100644 fonts/bootstrap-icons.woff2
+ create mode 100644 images/cody-lannom-G95AReIh_Ko-unsplash.jpeg
+ create mode 100644 images/header/businesspeople-meeting-office-working.jpg
+ create mode 100644 images/header/positive-european-woman-has-break-after-work.jpg
+ create mode 100644 images/people/beautiful-woman-face-portrait-brown-background.jpeg
+ create mode 100644 images/people/portrait-british-woman.jpeg
+ create mode 100644 images/people/senior-man-wearing-white-face-mask-covid-19-campaign-with-design-space.jpeg
+ create mode 100644 images/people/woman-wearing-mask-face-closeup-covid-19-green-background.jpeg
+ create mode 100644 images/pim-chu-z6NZ76_UTDI-unsplash.jpeg
+ create mode 100644 images/product/anis-m-WnVrO-DvxcE-unsplash.jpeg
+ create mode 100644 images/product/evan-mcdougall-qnh1odlqOmk-unsplash.jpeg
+ create mode 100644 images/product/jordan-nix-CkCUvwMXAac-unsplash.jpeg
+ create mode 100644 images/product/nature-zen-3Dn1BZZv3m8-unsplash.jpeg
+ create mode 100644 images/product/quokkabottles-kFc1_G1GvKA-unsplash.jpeg
+ create mode 100644 images/product/team-fredi-8HRKoay8VJE-unsplash.jpeg
+ create mode 100644 images/retail-shop-owner-mask-social-distancing-shopping.jpg
+ create mode 100644 images/servicescape-incorporated-_48JSlVLX6g-unsplash.jpeg
+ create mode 100644 images/slideshow/medium-shot-business-women-high-five.jpeg
+ create mode 100644 images/slideshow/team-meeting-renewable-energy-project.jpeg
+ create mode 100644 images/slideshow/two-business-partners-working-together-office-computer.jpeg
+ create mode 100644 index.html
+ create mode 100644 js/Headroom.js
+ create mode 100644 js/bootstrap.bundle.min.js
+ create mode 100644 js/custom.js
+ create mode 100644 js/jQuery.headroom.js
+ create mode 100644 js/jquery.min.js
+ create mode 100644 js/slick.min.js
+ create mode 100644 product-detail.html
+ create mode 100644 products.html
+ create mode 100644 sign-in.html
+ create mode 100644 sign-up.html
+
+C:\j1\tem>git push origin main
+Enumerating objects: 50, done.
+Counting objects: 100% (50/50), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (50/50), done.
+Writing objects: 100% (50/50), 1.51 MiB | 1.50 MiB/s, done.
+Total 50 (delta 7), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (7/7), done.
+To https://github.com/adil22032004/ADI.git
+ * [new branch]      main -> main
+
+C:\j1\tem>
